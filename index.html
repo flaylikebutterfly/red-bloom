@@ -1,80 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eternal Glowing Red Roses | Romantic Flower Animation</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Purple Bloom | My Favorite Sensei</title>
 
-    <link rel="stylesheet" href="./style.css">
-  </head>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <body>
-    <!-- Floating Hearts & Sparkles Background Canvas -->
-    <canvas id="hearts-canvas"></canvas>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <!-- Ambient Glow Overlay -->
-    <div class="romantic-overlay"></div>
+  <link rel="stylesheet" href="./style.css">
+</head>
 
-    <!-- Romantic Title Header -->
-    <header class="romantic-header">
-      <h1 class="romantic-title">Eternal Red Bloom</h1>
-      <p class="romantic-subtitle">A glowing garden of everlasting love</p>
-    </header>
+<body>
 
-    <!-- Control Actions Bar (Top Right) -->
-    <div class="control-bar">
-      <button id="note-btn" class="glass-btn" title="Read Love Letter">
-        <span class="btn-icon">💌</span>
-        <span class="btn-text">Love Letter</span>
-      </button>
-      <button id="bloom-btn" class="glass-btn" title="Burst Hearts">
-        <span class="btn-icon">💖</span>
-        <span class="btn-text">Send Love</span>
-      </button>
-    </div>
+  <!-- Floating Hearts & Sparkles -->
+  <canvas id="hearts-canvas"></canvas>
 
-    <!-- Play Music Button (Bottom Right Corner) -->
-    <button id="music-btn" class="glass-btn music-btn-bottom-right" title="Toggle Romantic Music">
-      <span class="btn-icon">🎵</span>
-      <span class="btn-text">Play Music</span>
+  <!-- Ambient Purple Glow -->
+  <div class="romantic-overlay"></div>
+
+  <!-- Floating Butterflies -->
+  <div class="butterfly butterfly-one">🦋</div>
+  <div class="butterfly butterfly-two">🦋</div>
+  <div class="butterfly butterfly-three">🦋</div>
+  <div class="butterfly butterfly-four">🦋</div>
+
+  <!-- Main Header -->
+  <header class="romantic-header">
+
+    <h1 class="romantic-title">
+      My Favorite Sensei
+    </h1>
+
+    <p class="romantic-subtitle">
+      A Garden of Gratitude
+    </p>
+
+    <p class="intro-line">
+      A little garden, made with a lot of gratitude.
+    </p>
+
+  </header>
+
+  <!-- Control Buttons -->
+  <div class="control-bar">
+
+    <button id="note-btn" class="glass-btn" title="Read a Little Letter">
+      <span class="btn-icon">💌</span>
+      <span class="btn-text">A Little Letter</span>
     </button>
 
-    <!-- Ground & Flowers Container -->
-    <div class="ground">
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-      <div class="flower-container"></div>
-    </div>
+    <button id="bloom-btn" class="glass-btn" title="Send Appreciation">
+      <span class="btn-icon">💜</span>
+      <span class="btn-text">Send Appreciation</span>
+    </button>
 
-    <!-- Romantic Love Letter Modal -->
-    <div id="love-modal" class="modal-overlay hidden">
-      <div class="glass-modal">
-        <button id="close-modal" class="close-btn">&times;</button>
-        <div class="modal-heart">🌹</div>
-        <h2 class="modal-title">To Someone Special</h2>
-        <p id="typewriter-text" class="modal-text"></p>
-        <div class="modal-footer">
-          <button id="heart-burst-btn" class="romantic-action-btn">Send Extra Hearts ❤️</button>
-        </div>
+  </div>
+
+  <!-- Music Button -->
+  <button id="music-btn" class="glass-btn music-btn-bottom-right" title="Toggle Music">
+    <span class="btn-icon">🎵</span>
+    <span class="btn-text">Play Music</span>
+  </button>
+
+  <!-- Twelve Blooming Flowers -->
+  <div class="ground">
+
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+    <div class="flower-container"></div>
+
+  </div>
+
+  <!-- Appreciation Letter -->
+  <div id="love-modal" class="modal-overlay hidden">
+
+    <div class="glass-modal">
+
+      <button id="close-modal" class="close-btn">&times;</button>
+
+      <div class="modal-heart">💜</div>
+
+      <h2 class="modal-title">
+        Dear Sensei
+      </h2>
+
+      <p id="typewriter-text" class="modal-text"></p>
+
+      <div class="modal-footer">
+
+        <button id="heart-burst-btn" class="romantic-action-btn">
+          Send More Sparkles ✨
+        </button>
+
       </div>
+
     </div>
 
-    <script src="./script.js"></script>
-  </body>
+  </div>
 
+  <!-- Original JavaScript -->
+  <script src="./script.js"></script>
+
+</body>
 </html>
