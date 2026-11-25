@@ -311,6 +311,12 @@ May your days bloom with happiness, just like the flowers in this little garden.
 
 With sincere gratitude, hope you won’t get tired of teaching us yaa (especially iis hehe) ><
 
+アニエ先生、教師の日おめでとうございます。
+
+いつも温かく見守り、導いてくださり、本当にありがとうございます。
+
+先生のこれまでのご努力に心から感謝いたします。これからもよろしくお願いいたします。
+
 Your fav student ^^`;
 
 let typewriterIndex = 0;
