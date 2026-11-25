@@ -653,3 +653,284 @@ body {
         padding: 10px 16px;
     }
 }
+/* =================================
+   PURPLE BLOOM - MY FAVORITE SENSEI
+   ================================= */
+
+:root {
+    --primary-red: #a855f7;
+    --bright-rose: #d8b4fe;
+    --deep-ruby: #6b21a8;
+    --dark-crimson: #240d3d;
+    --glow-red: rgba(168, 85, 247, 0.85);
+    --gold-accent: #e9d5ff;
+}
+
+/* Background */
+body {
+    background: radial-gradient(
+        circle at 50% 40%,
+        #32134f 0%,
+        #170b2b 55%,
+        #080410 100%
+    );
+}
+
+/* Purple ambient glow */
+.romantic-overlay {
+    background: radial-gradient(
+        circle at 50% 50%,
+        rgba(168, 85, 247, 0.22),
+        transparent 70%
+    );
+}
+
+/* Main title */
+.romantic-title {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #e9d5ff 45%,
+        #a855f7
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(192, 132, 252, 0.5);
+}
+
+.romantic-subtitle {
+    color: #d8b4fe;
+}
+
+/* Purple flower petals */
+.flower-petal {
+    background-color: #a855f7;
+    background-image: linear-gradient(
+        135deg,
+        #f3e8ff 0%,
+        #c084fc 45%,
+        #7e22ce 100%
+    );
+    box-shadow:
+        inset 0 0 10cqi rgba(255,255,255,.4),
+        0 0 18cqi rgba(168,85,247,.7);
+}
+
+/* Flower center */
+.flower-circle {
+    background: radial-gradient(
+        circle,
+        #f3e8ff 0%,
+        #c084fc 60%,
+        #6b21a8 100%
+    );
+    box-shadow: 0 0 20cqi #c084fc;
+}
+
+/* Glowing particles */
+.flower-light:nth-child(odd) {
+    background-color: #f3e8ff;
+    filter: blur(1.5cqi) drop-shadow(0 0 8cqi #c084fc);
+}
+
+.flower-light:nth-child(even) {
+    background-color: #a855f7;
+    filter: blur(1.5cqi) drop-shadow(0 0 8cqi #d8b4fe);
+}
+
+/* Green stems */
+.flower-stem {
+    background-image:
+        linear-gradient(
+            to left,
+            rgba(0,0,0,.3),
+            transparent,
+            rgba(22,101,52,.3)
+        ),
+        linear-gradient(
+            to top,
+            transparent 10%,
+            #245c39,
+            #62a66c
+        );
+}
+
+/* Green leaves */
+.flower-leaf:nth-child(even) {
+    background-image: linear-gradient(
+        120deg,
+        #398451cc,
+        #173d2900
+    );
+}
+
+.flower-leaf:nth-child(odd) {
+    background-image: linear-gradient(
+        300deg,
+        #398451cc,
+        #173d2900
+    );
+}
+
+/* Buttons */
+.glass-btn {
+    background: rgba(42, 17, 65, .78);
+    border-color: rgba(192, 132, 252, .5);
+    color: #f3e8ff;
+    box-shadow: 0 4px 15px rgba(0,0,0,.4);
+}
+
+.glass-btn:hover {
+    background: rgba(147, 51, 234, .4);
+    border-color: #e9d5ff;
+    box-shadow: 0 8px 25px rgba(168,85,247,.4);
+}
+
+/* Letter modal */
+.glass-modal {
+    background: linear-gradient(
+        135deg,
+        rgba(53,26,82,.96),
+        rgba(17,9,32,.98)
+    );
+    border-color: rgba(192,132,252,.5);
+}
+
+.modal-title {
+    color: #e9d5ff;
+}
+
+.modal-text {
+    color: #f3e8ff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+    white-space: pre-line;
+}
+
+.modal-heart {
+    color: #d8b4fe;
+}
+
+.close-btn {
+    color: #d8b4fe;
+}
+
+.romantic-action-btn {
+    background: linear-gradient(
+        135deg,
+        #a855f7,
+        #6b21a8
+    );
+    box-shadow: 0 4px 15px rgba(168,85,247,.4);
+}
+
+/* =================================
+   MAGICAL PURPLE BUTTERFLIES
+   ================================= */
+
+.butterfly {
+    position: fixed;
+    z-index: 8;
+    pointer-events: none;
+    font-size: 32px;
+    filter: hue-rotate(55deg)
+            drop-shadow(0 0 8px #d8b4fe)
+            drop-shadow(0 0 18px #a855f7);
+    animation: butterfly-fly 18s ease-in-out infinite;
+}
+
+.butterfly-one {
+    top: 65%;
+    left: -10%;
+    animation-delay: 0s;
+}
+
+.butterfly-two {
+    top: 30%;
+    left: -10%;
+    font-size: 24px;
+    animation-delay: -6s;
+}
+
+.butterfly-three {
+    top: 45%;
+    left: -10%;
+    font-size: 28px;
+    animation-delay: -12s;
+}
+
+.butterfly-four {
+    top: 75%;
+    left: -10%;
+    font-size: 22px;
+    animation-delay: -15s;
+}
+
+@keyframes butterfly-fly {
+    0% {
+        transform: translate(0, 0) rotate(-10deg);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    30% {
+        transform: translate(25vw, -12vh) rotate(12deg);
+    }
+
+    50% {
+        transform: translate(50vw, 5vh) rotate(-8deg);
+    }
+
+    75% {
+        transform: translate(78vw, -15vh) rotate(10deg);
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(115vw, 0) rotate(-10deg);
+        opacity: 0;
+    }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .romantic-header {
+        top: 15px;
+        width: 95vw;
+    }
+
+    .romantic-title {
+        font-size: clamp(1.3rem, 6vw, 2rem);
+    }
+
+    .control-bar {
+        top: auto;
+        bottom: 75px;
+        right: 50%;
+        transform: translateX(50%);
+        gap: 7px;
+    }
+
+    .control-bar .glass-btn {
+        padding: 9px 12px;
+        font-size: .75rem;
+    }
+
+    .music-btn-bottom-right {
+        bottom: 15px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .butterfly {
+        animation: none;
+    }
+}
