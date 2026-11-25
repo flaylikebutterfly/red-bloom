@@ -311,13 +311,13 @@ May your days bloom with happiness, just like the flowers in this little garden.
 
 With sincere gratitude, hope you won’t get tired of teaching us yaa (especially iis hehe) ><
 
-アニエ先生、教師の日おめでとうございます。
+あなたの教えは、いつまでも心に残る。
 
-いつも温かく見守り、導いてくださり、本当にありがとうございます。
+その光は、誰かの未来を照らしている。
 
-先生のこれまでのご努力に心から感謝いたします。これからもよろしくお願いいたします。
+出会えてよかった、私の大切な先生。
 
-Otsukaresama deshita! :D
+Otsukaresama deshita :D
 
 Your fav student ^^`;
 
