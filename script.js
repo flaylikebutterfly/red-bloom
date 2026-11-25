@@ -317,6 +317,8 @@ With sincere gratitude, hope you won’t get tired of teaching us yaa (especiall
 
 先生のこれまでのご努力に心から感謝いたします。これからもよろしくお願いいたします。
 
+Otsukaresama deshita! :D
+
 Your fav student ^^`;
 
 let typewriterIndex = 0;
