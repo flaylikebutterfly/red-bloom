@@ -301,7 +301,7 @@ const bloomBtn = document.getElementById('bloom-btn');
 const heartBurstBtn = document.getElementById('heart-burst-btn');
 
 // Pesan khusus untuk Sensei
-const message = `Dear Sensei,
+const message = `Dear Anie Sensei,
 
 Thank you for every lesson, every piece of advice, and every little encouragement you've given.
 
@@ -309,8 +309,9 @@ You don't just teach lessons from books, but also valuable things about life.
 
 May your days bloom with happiness, just like the flowers in this little garden.
 
-With sincere gratitude,
-Your student.`;
+With sincere gratitude, hope you won’t get tired of teaching us yaa (especially iis hehe) ><
+
+Your fav student ^^`;
 
 let typewriterIndex = 0;
 let typewriterTimer = null;
