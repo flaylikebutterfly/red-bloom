@@ -934,3 +934,11 @@ body {
         animation: none;
     }
 }
+.japanese-line {
+  color: #e9d5ff;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 0 0 12px rgba(216, 180, 254, 0.65);
+}
