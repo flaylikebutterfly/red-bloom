@@ -301,7 +301,7 @@ const bloomBtn = document.getElementById('bloom-btn');
 const heartBurstBtn = document.getElementById('heart-burst-btn');
 
 // Pesan khusus untuk Sensei
-const message = `Dear Anie Sensei,
+const message = `To: Anie Sensei,
 
 Thank you for every lesson, every piece of advice, and every little encouragement you've given.
 
@@ -319,7 +319,7 @@ With sincere gratitude, hope you won’t get tired of teaching us yaa (especiall
 
 Otsukaresama deshita :D
 
-Your fav student ^^`;
+By: Your fav student ^^`;
 
 let typewriterIndex = 0;
 let typewriterTimer = null;
